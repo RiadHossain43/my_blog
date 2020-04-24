@@ -72,7 +72,7 @@ nav{
     background:black;
 	clip-path: circle(0px at 100% 0%);
     -webkit-clip-path: circle(0px at 100% 0%);
-    transition: all 1s ease-out;
+    transition: all .7s ease-out;
     color: white;
     z-index: 3;
 }
@@ -135,8 +135,8 @@ nav{
 .read{
     width: 95%;
     height: 95%;
-    background-color: black;
     opacity: 0;
+    background-color: black;
     transition: .3s;
     display: flex;
     align-items: center;
