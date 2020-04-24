@@ -142,7 +142,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.read h2{
+.rm{
     display: block;
     color: white;
     border-top: 8px solid white;
@@ -155,7 +155,7 @@ nav{
     height: 75%;
     opacity: .6;
 }
-.blog:hover .read h2{
+.blog:hover .rm{
     padding: 0px;
 }
 .blog_detail,.blog_footer{
