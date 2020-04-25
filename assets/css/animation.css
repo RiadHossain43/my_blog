@@ -25,6 +25,9 @@
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
             animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
+  .loading{
+    animation: load 1s;
+  }
 @keyframes bounceIn {
     from,
     20%,
@@ -290,5 +293,14 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes load{
+  0%{
+      width: 0;
+  }50%{
+      width: 80px;
+  }100%{
+      width: 0;
   }
 }

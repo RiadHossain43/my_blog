@@ -22,15 +22,15 @@ body{
     flex-direction: column;
 }
 #loadbox{
-    height: 50px;
-    width: 50px;
-    border-radius: 6px;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
     background-color:white;
-    animation:loader 1.5s infinite;
+    animation:load 1.1s infinite;
 }
 #loader h3{
     color:white;
-    margin: 20px;
+    margin: 2px;
     letter-spacing: 2px;
 }
 header{
